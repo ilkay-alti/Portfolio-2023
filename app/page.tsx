@@ -5,10 +5,10 @@ interface HomePageProps {}
 
 const HomePage: FC<HomePageProps> = ({}) => {
   return (
-    <>
-      <h1>Hello World</h1>
+    <div>
+      <h1 className="dark:text-purple-800">Hello World</h1>
       <ThemeButton />
-    </>
+    </div>
   );
 };
 

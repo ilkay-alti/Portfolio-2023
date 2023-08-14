@@ -7,5 +7,5 @@ interface ProvidersProps {
 }
 
 export const Providers: FC<ProvidersProps> = ({ children }) => {
-  return <ThemeProvider>{children}</ThemeProvider>;
+  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
 };
