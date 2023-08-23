@@ -5,7 +5,7 @@ import React from "react";
 const About = () => {
   const GithubPicture = process.env.NEXT_PUBLIC_GITHUB_PICTURE;
   return (
-    <div className="px-60 flex gap-28 mt-16">
+    <div className="px-60 flex gap-28 my-36">
       <div className="flex flex-col gap-4 text-[#f2f3f4]">
         <h1 className="font-bold text-6xl leading-[68px] ">Hi, I am</h1>
         <h1 className="font-bold text-6xl  leading-[68px] ">İlkay Altınışık</h1>
